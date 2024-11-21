@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/spilani.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <title>Dont_be_a_poser</title>
+</head>
+<body>
+<header>
+    <nav class="global-menu">
+        <ul>
+          <li><a href="index.html" class="menu-link">HOME</a></li>
+          <li><a href="spil.html" class="menu-link">SPILLET</a></li>
+          <li><a href="assets.html" class="menu-link">ASSETLISTE</a></li>
+          <li><a href="grafik.html" class="menu-link">DESIGN</a></li>
+          <li><a href="teknik.html" class="menu-link">DIAGRAMMER</a></li>
+        </ul>
+      </nav>
+
+</header>
+
+<main>
+
+
+<div id="screen"> 
+    <div id="game">
+    <div id="game_background"></div>
+    <div id="game_elements">
+
+        <div id="william_container">
+        <div id="william_sprite"></div>
+        </div>
+
+        <div id="upside_down_container">
+            <div id="upside_down_sprite"></div>
+        </div> 
+
+        <div id="jesus_pose_container">
+            <div id="jesus_pose_sprite"></div>
+        </div>
+
+        <div id="psycho_container">
+            <div id="psycho_sprite"></div>
+        </div>
+
+        <div id="crazy_flip_container">
+            <div id="crazy_flip_sprite"></div>
+        </div>
+
+
+        <div id="slide_container">
+            <div id="slide_sprite"></div>
+        </div>
+
+    
+
+    <div id="greenboard_container">
+    <div id="greenboard_sprite"></div>
+    </div>
+
+    <div id="redboard_container">
+    <div id="redboard_sprite"></div>
+    </div>
+
+    <div id="blueboard_container">
+    <div id="blueboard_sprite"></div>
+    </div>
+
+    <div id="orangeboard_container">
+    <div id="orangeboard_sprite"></div>
+    </div>
+
+    <div id="purpleboard_container">
+    <div id="purpleboard_sprite"></div>
+    </div>
+   
+
+
+
+    </div>
+    <div id="game_foreground"></div>
+    <div id="game_ui">
+        <div id="start_screen"></div>
+        <div id="start_button_container"><div id="start_button"></div></div>
+        <div id="scoreboard">
+            <p id="score">0</p>
+        </div>
+
+        <div id="health">
+        <span id="display_lives"></span>
+        </div>
+    </div>
+<div id="level_complete" class="hidden">
+   <div onclick="playAgain()" id="playAgain_container"><div id="playAgain" class="hidden"></div></div>
+</div>
+<div id="game_over" class="hidden">
+    <div onclick="playAgain()" id="playAgain_container2"><div id="playAgain_container2" class="hidden"></div></div>
+</div>
+
+
+
+</div>
+</div>
+</main>
+    <footer>
+    <audio src=""></audio>
+        <p>Kasra Hakami spil</p>
+        </footer>
+<script src="js/animation.js"></script>
+</body>
+
+</html>
